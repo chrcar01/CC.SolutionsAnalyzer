@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>preview</LangVersion>
+		<Version>0.1.0</Version>
+		<Title>$(AssemblyName)</Title>
+		<Authors>Chris Carter</Authors>
+		<Description>Tool parses directory to build solution/project references that can be queried.</Description>
+		<PackageProjectUrl>https://github.com/chrcar01/CC.SolutionsAnalyzer</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/chrcar01/CC.SolutionsAnalyzer</RepositoryUrl>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+</Project>
